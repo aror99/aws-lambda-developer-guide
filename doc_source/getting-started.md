@@ -1,12 +1,6 @@
 # Getting started with Lambda<a name="getting-started"></a>
 
-To get started with Lambda, use the Lambda console to create a function\. In a few minutes, you can create a function, invoke it, and then view logs, metrics, and trace data\.
-
-**Note**  
-To use Lambda and other AWS services, you need an AWS account\. If you don't have an account, visit [aws\.amazon\.com](https://aws.amazon.com/) and choose **Create an AWS Account**\. For instructions, see [How do I create and activate a new AWS account?](http://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/)  
-As a best practice, create an AWS Identity and Access Management \(IAM\) user with administrator permissions, and then use that IAM user for all work that does not require root credentials\. Create a password for console access, and create access keys to use command line tools\. For instructions, see [Creating your first IAM admin user and group](https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-admin-group.html) in the *IAM User Guide*\.
-
-You can author functions in the Lambda console, or with an IDE toolkit, command line tools, or the AWS SDKs\. The Lambda console provides a [code editor](foundation-console.md#code-editor) for non\-compiled languages that lets you modify and test code quickly\. The [AWS Command Line Interface \(AWS CLI\)](gettingstarted-awscli.md) gives you direct access to the Lambda API for advanced configuration and automation use cases\.
+The Lambda console provides a [code editor](foundation-console.md#code-editor) for non\-compiled languages that lets you modify and test code quickly\. En el tutorial [Using Lambda with the AWS CLI](gettingstarted-awscli.md) se ve como crear una lambda en Python desde *.zip y con la CLI\.
 
 You deploy your function code to Lambda using a deployment package\. Lambda supports two types of deployment packages:
 + A \.zip file archive that contains your function code and its dependencies\. For an example tutorial, see [Create a Lambda function with the console](getting-started-create-function.md)\.
