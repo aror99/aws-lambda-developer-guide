@@ -60,7 +60,7 @@ Amazon's trademarks and trade dress may not be used in
    + [Error handling and automatic retries in AWS Lambda](invocation-retries.md)
    + [Using Lambda extensions](using-extensions.md)
    + [Invoking functions defined as container images](invocation-images.md)
-+ [Lambda runtimes](lambda-runtimes.md)
++ **OK** [Lambda runtimes](lambda-runtimes.md) 
    + [Runtime support policy](runtime-support-policy.md)
    + [AWS Lambda execution environment](runtimes-context.md)
    + [Runtime support for Lambda container images](runtimes-images.md)
