@@ -18,7 +18,7 @@ In the following example, you specify the trust policy inline\. Requirements for
 aws iam create-role --role-name lambda-ex --assume-role-policy-document '{"Version": "2012-10-17","Statement": [{ "Effect": "Allow", "Principal": {"Service": "lambda.amazonaws.com"}, "Action": "sts:AssumeRole"}]}'
 ```
 
-You can also define the [trust policy](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_terms-and-concepts.html) for the role using a JSON file\. In the following example, `trust-policy.json` is a file in the current directory\. This trust policy allows Lambda to use the role's permissions by giving the service principal `lambda.amazonaws.com` permission to call the AWS Security Token Service `AssumeRole` action\.
+You can also define the [trust policy](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_terms-and-concepts.html) for the role using a JSON file\. In the following example, `trust-policy.json` is a file in the current directory\. This trust policy allows Lambda to use the role's permissions by giving the service principal `lambda.amazonaws.com` permission to call the [AWS Security Token Service](https://docs.aws.amazon.com/STS/latest/APIReference/welcome.html) `AssumeRole` action\.
 
 **Example trust\-policy\.json**  
 
