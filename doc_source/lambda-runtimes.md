@@ -1,3 +1,5 @@
+# OK
+
 # Lambda runtimes<a name="lambda-runtimes"></a>
 
 Lambda supports multiple languages through the use of [runtimes](gettingstarted-concepts.md#gettingstarted-concepts-runtime)\. For a [function defined as a container image](configuration-images.md), you choose a runtime and the Linux distribution when you [create the container image](images-create.md)\. To change the runtime, you create a new container image\.
