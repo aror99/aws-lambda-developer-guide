@@ -1,8 +1,8 @@
 # Using Lambda with the AWS CLI<a name="gettingstarted-awscli"></a>
 
-You can use the AWS Command Line Interface to manage functions and other AWS Lambda resources\. The AWS CLI uses the AWS SDK for Python \(Boto\) to interact with the Lambda API\. You can use it to learn about the API, and apply that knowledge in building applications that use Lambda with the AWS SDK\. 
+You can use the AWS CLI to manage functions and other AWS Lambda resources\. The AWS CLI uses the AWS SDK for Python \(Boto\) to interact with the Lambda API\. 
 
-In this tutorial, you manage and invoke Lambda functions with the AWS CLI\. For more information, see [What is the AWS CLI?](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html) in the *AWS Command Line Interface User Guide*\.
+In this tutorial, you manage and invoke Lambda functions with the AWS CLI\. 
 
 ## Prerequisites<a name="with-userapp-walkthrough-custom-events-deploy"></a>
 
