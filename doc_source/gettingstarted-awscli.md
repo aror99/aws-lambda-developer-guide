@@ -6,19 +6,8 @@ In this tutorial, you manage and invoke Lambda functions with the AWS CLI\.
 
 ## Prerequisites<a name="with-userapp-walkthrough-custom-events-deploy"></a>
 
-This tutorial assumes that you have some knowledge of basic Lambda operations and the Lambda console\. If you haven't already, follow the instructions in [Create a Lambda function with the console](getting-started-create-function.md)\. 
+Para este tutorial se necesita el CLI y saber lo minimo de crear funciones desde la consola, en  [Create a Lambda function with the console](getting-started-create-function.md) se puede ver esto último\. 
 
-To complete the following steps, you need a command line terminal or shell to run commands\. Commands and the expected output are listed in separate blocks:
-
-```
-aws --version
-```
-
-You should see the following output:
-
-```
-aws-cli/2.0.57 Python/3.7.4 Darwin/19.6.0 exe/x86_64
-```
 
 For long commands, an escape character \(`\`\) is used to split a command over multiple lines\.
 
