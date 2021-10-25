@@ -2,16 +2,6 @@
 
 # Setting up with Lambda<a name="lambda-settingup"></a>
 
-To use AWS Lambda, you need an AWS account\. If you plan to configure and use Lambda functions from the command line, set up the AWS CLI\. You can set up other development and build tools as required for the environment and language that you are planning to use\. 
-
-**Topics**
-+ [AWS Account](#lambda-settingup-account)
-+ [AWS CLI](#lambda-settingup-awscli)
-+ [AWS SAM](#lambda-settingup-awssam)
-+ [AWS SAM CLI](#lambda-settingup-samcli)
-+ [Tools for container images](#lambda-settingup-docker)
-+ [Code authoring tools](#lambda-settingup-author)
-
 ## AWS CLI<a name="lambda-settingup-awscli"></a>
 
 To set up the AWS CLI, see the following topics in the *AWS Command Line Interface User Guide*\.
