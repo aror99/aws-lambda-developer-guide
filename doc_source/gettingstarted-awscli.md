@@ -8,13 +8,6 @@ In this tutorial, you manage and invoke Lambda functions with the AWS CLI\.
 
 Para este tutorial se necesita el CLI y saber lo minimo de crear funciones desde la consola, en  [Create a Lambda function with the console](getting-started-create-function.md) se puede ver esto último\. 
 
-
-For long commands, an escape character \(`\`\) is used to split a command over multiple lines\.
-
-On Linux and macOS, use your preferred shell and package manager\. On Windows 10, you can [install the Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) to get a Windows\-integrated version of Ubuntu and Bash\.
-
-This tutorial uses the AWS Command Line Interface \(AWS CLI\) to call service API operations\. To install the AWS CLI, see [Installing the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html) in the AWS Command Line Interface User Guide\.
-
 ## Create the execution role<a name="with-userapp-walkthrough-custom-events-create-iam-role"></a>
 
 Create the [execution role](lambda-intro-execution-role.md) that gives your function permission to access AWS resources\. To create an execution role with the AWS CLI, use the `create-role` command\.
