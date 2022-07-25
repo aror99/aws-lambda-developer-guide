@@ -19,11 +19,11 @@ Amazon's trademarks and trade dress may not be used in
 + **OK** [Getting started with Lambda](getting-started.md)
    + **OK** [Create a function defined as a container image](gettingstarted-images.md)
 + **OK** AWS Lambda foundations
-   + [Lambda concepts](gettingstarted-concepts.md)
+   + **OK** [Lambda concepts](gettingstarted-concepts.md)
    + [Lambda features](gettingstarted-features.md)
    + [Lambda programming model](foundation-progmodel.md)
    + [Lambda instruction set architectures](foundation-arch.md)
-   + [Lambda function scaling](invocation-scaling.md)
+   + **OK** [Lambda function scaling](invocation-scaling.md)
    + [Lambda deployment packages](gettingstarted-package.md)
    + [Lambda console](foundation-console.md)
    + [Using Lambda with the AWS CLI](gettingstarted-awscli.md)
