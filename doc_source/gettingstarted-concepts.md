@@ -3,24 +3,14 @@
 Lambda runs instances of your function to process events\. You can invoke your function directly using the Lambda API, or you can configure an AWS service or resource to invoke your function\.
 
 **Topics**
-+ [Function](#gettingstarted-concepts-function)
 + [Trigger](#gettingstarted-concepts-trigger)
 + [Event](#gettingstarted-concepts-event)
-+ [Execution environment](#gettingstarted-concepts-ee)
-+ [Instruction set architecture](#gettingstarted-concepts-arch)
-+ [Deployment package](#gettingstarted-concepts-dp)
-+ [Runtime](#gettingstarted-concepts-runtime)
 + [Layer](#gettingstarted-concepts-layer)
 + [Extension](#gettingstarted-concepts-extensions)
 + [Concurrency](#gettingstarted-concepts-concurrency)
 + [Qualifier](#gettingstarted-concepts-qualifier)
 + [Destination](#gettingstarted-concepts-destinations)
 
-## Function<a name="gettingstarted-concepts-function"></a>
-
-A *function* is a resource that you can invoke to run your code in Lambda\. A function has code to process the [events](#gettingstarted-concepts-event) that you pass into the function or that other AWS services send to the function\.
-
-For more information, see [Configuring AWS Lambda functions](lambda-functions.md)\.
 
 ## Trigger<a name="gettingstarted-concepts-trigger"></a>
 
@@ -58,34 +48,6 @@ When an AWS service invokes your function, the service defines the shape of the 
 ```
 
 For more information about events from AWS services, see [Using AWS Lambda with other services](lambda-services.md)\.
-
-## Execution environment<a name="gettingstarted-concepts-ee"></a>
-
-An *execution environment* provides a secure and isolated runtime environment for your Lambda function\. An execution environment manages the processes and resources that are required to run the function\. The execution environment provides lifecycle support for the function and for any [extensions](#gettingstarted-concepts-extensions) associated with your function\.
-
-For more information, see [AWS Lambda execution environment](runtimes-context.md)\.
-
-## Instruction set architecture<a name="gettingstarted-concepts-arch"></a>
-
- The *instruction set architecture* determines the type of computer processor that Lambda uses to run the function\. Lambda provides a choice of instruction set architectures:
-+ arm64 – 64\-bit ARM architecture, for the AWS Graviton2 processor\.
-+ x86\_64 – 64\-bit x86 architecture, for x86\-based processors\.
-
-For more information, see [Lambda instruction set architectures](foundation-arch.md)\.
-
-## Deployment package<a name="gettingstarted-concepts-dp"></a>
-
-You deploy your Lambda function code using a *deployment package*\. Lambda supports two types of deployment packages:
-+ A \.zip file archive that contains your function code and its dependencies\. Lambda provides the operating system and runtime for your function\.
-+ A container image that is compatible with the [Open Container Initiative \(OCI\)](https://opencontainers.org/) specification\. You add your function code and dependencies to the image\. You must also include the operating system and a Lambda runtime\.
-
-For more information, see [Lambda deployment packages](gettingstarted-package.md)\.
-
-## Runtime<a name="gettingstarted-concepts-runtime"></a>
-
-The *runtime* provides a language\-specific environment that runs in an execution environment\. The runtime relays invocation events, context information, and responses between Lambda and the function\. You can use runtimes that Lambda provides, or build your own\. If you package your code as a \.zip file archive, you must configure your function to use a runtime that matches your programming language\. For a container image, you include the runtime when you build the image\.
-
-For more information, see [Lambda runtimes](lambda-runtimes.md)\.
 
 ## Layer<a name="gettingstarted-concepts-layer"></a>
 
