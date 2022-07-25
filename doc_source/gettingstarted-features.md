@@ -1,16 +1,11 @@
 # Lambda features<a name="gettingstarted-features"></a>
 
-Lambda provides a management console and API for managing and invoking functions\. It provides runtimes that support a standard set of features so that you can easily switch between languages and frameworks, depending on your needs\. In addition to functions, you can also create versions, aliases, layers, and custom runtimes\.
-
 **Topics**
-+ [Scaling](#gettingstarted-features-scaling)
 + [Concurrency controls](#gettingstarted-features-concurrency)
 + [Asynchronous invocation](#gettingstarted-features-async)
 + [Event source mappings](#gettingstarted-features-eventsourcemapping)
 + [Destinations](#gettingstarted-features-destinations)
-+ [Function blueprints](#gettingstarted-features-blueprints)
-+ [Testing and deployment tools](#gettingstarted-features-tools)
-+ [Application templates](#gettingstarted-features-templates)
+
 
 ## Scaling<a name="gettingstarted-features-scaling"></a>
 
@@ -62,22 +57,3 @@ For [event source mappings](#gettingstarted-features-eventsourcemapping) that re
 
 For more information, see [Configuring destinations for asynchronous invocation](invocation-async.md#invocation-async-destinations) and the error handling sections of [Using AWS Lambda with Amazon DynamoDB](with-ddb.md) and [Using AWS Lambda with Amazon Kinesis](with-kinesis.md)\.
 
-## Function blueprints<a name="gettingstarted-features-blueprints"></a>
-
-When you create a function in the Lambda console, you can choose to start from scratch, use a blueprint, use a [container image](gettingstarted-package.md#gettingstarted-package-images), or deploy an application from the [AWS Serverless Application Repository](https://docs.aws.amazon.com/serverlessrepo/latest/devguide/what-is-serverlessrepo.html)\. A blueprint provides sample code that shows how to use Lambda with an AWS service or a popular third\-party application\. Blueprints include sample code and function configuration presets for Node\.js and Python runtimes\.
-
-Blueprints are provided for use under the [Amazon Software License](http://aws.amazon.com/asl/)\. They are available only in the Lambda console\.
-
-## Testing and deployment tools<a name="gettingstarted-features-tools"></a>
-
-Lambda supports deploying code as is or as [container images](gettingstarted-package.md#gettingstarted-package-images)\. You can use a rich tools ecosystem for authoring, building, and deploying your Lambda functions using AWS and popular community tools like the Docker command line interface \(CLI\)\.
-
-To set up the Docker CLI, see [Get Docker](https://docs.docker.com/get-docker) on the Docker Docs website\. For an introduction to using Docker with AWS, see [Getting started with Amazon ECR using the AWS CLI](https://docs.aws.amazon.com/AmazonECR/latest/userguide/getting-started-cli.html) in the *Amazon Elastic Container Registry User Guide*\.
-
-## Application templates<a name="gettingstarted-features-templates"></a>
-
-You can use the Lambda console to create an application with a continuous delivery pipeline\. Application templates in the Lambda console include code for one or more functions, an application template that defines functions and supporting AWS resources, and an infrastructure template that defines an AWS CodePipeline pipeline\. The pipeline has build and deploy stages that run every time you push changes to the included Git repository\.
-
-Application templates are provided for use under the [MIT No Attribution](https://spdx.org/licenses/MIT-0.html) license\. They are available only in the Lambda console\.
-
-For more information, see [Creating an application with continuous delivery in the Lambda console](applications-tutorial.md)\.
