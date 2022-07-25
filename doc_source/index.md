@@ -17,9 +17,8 @@ Amazon's trademarks and trade dress may not be used in
 + **OK** [What is AWS Lambda?](welcome.md)
 + **OK** [Setting up with Lambda](lambda-settingup.md)
 + **OK** [Getting started with Lambda](getting-started.md)
-   + [Create a Lambda function with the console](getting-started-create-function.md)
-   + [Create a function defined as a container image](gettingstarted-images.md)
-+ [AWS Lambda foundations](lambda-foundation.md)
+   + **OK** [Create a function defined as a container image](gettingstarted-images.md)
++ **OK** AWS Lambda foundations
    + [Lambda concepts](gettingstarted-concepts.md)
    + [Lambda features](gettingstarted-features.md)
    + [Lambda programming model](foundation-progmodel.md)
