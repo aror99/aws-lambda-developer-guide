@@ -56,16 +56,8 @@ For more information about layers, see [Creating and sharing Lambda layers](conf
 
 The following section describes other AWS services you can use to package dependencies for your Lambda function\.
 
-### Deployment packages with C or C\+\+ libraries<a name="gettingstarted-package-sam"></a>
-
-If your deployment package contains native libraries, you can build the deployment package with AWS Serverless Application Model \(AWS SAM\)\. You can use the AWS SAM CLI `sam build` command with the `--use-container` to create your deployment package\. This option builds a deployment package inside a Docker image that is compatible with the Lambda execution environment\. 
-
-For more information, see [sam build](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-cli-command-reference-sam-build.html) in the *AWS Serverless Application Model Developer Guide*\.
 
 ### Deployment packages over 50 MB<a name="gettingstarted-package-s3"></a>
 
 If your deployment package is larger than 50 MB, we recommend uploading your function code and dependencies to an Amazon S3 bucket\.
 
-You can create a deployment package and upload the \.zip file to your Amazon S3 bucket in the AWS Region where you want to create a Lambda function\. When you create your Lambda function, specify the S3 bucket name and object key name on the Lambda console, or using the AWS CLI\.
-
-To create a bucket using the Amazon S3 console, see [How do I create an S3 Bucket?](https://docs.aws.amazon.com/AmazonS3/latest/user-guide/create-bucket.html) in the *Amazon Simple Storage Service Console User Guide*\.
