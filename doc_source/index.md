@@ -23,7 +23,7 @@ Amazon's trademarks and trade dress may not be used in
    + **OK** [Lambda features](gettingstarted-features.md)
    + **OK** [Lambda programming model](foundation-progmodel.md)
    + **OK** [Lambda function scaling](invocation-scaling.md)
-   + [Lambda deployment packages](gettingstarted-package.md)
+   + **OK** [Lambda deployment packages](gettingstarted-package.md)
    + [Using Lambda with the AWS CLI](gettingstarted-awscli.md)
 + [AWS Lambda permissions](lambda-permissions.md)
    + [AWS Lambda execution role](lambda-intro-execution-role.md)
