@@ -10,7 +10,6 @@ You can create layers using the Lambda console, the Lambda API, AWS CloudFormati
 + [Creating layer content](#configuration-layers-upload)
 + [Compiling the \.zip file archive for your layer](#configuration-layers-compile)
 + [Including library dependencies in a layer](#configuration-layers-path)
-+ [Language\-specific instructions](#configuration-layers-zip-cli)
 + [Creating a layer](#configuration-layers-create)
 + [Deleting a layer version](#configuration-layers-delete)
 + [Configuring layer permissions](#configuration-layers-permissions)
@@ -62,24 +61,6 @@ pillow.zip
 ```
 
 ------
-#### [ Ruby ]
-
-**Example file structure for the JSON gem**  
-
-```
-json.zip
-└ ruby/gems/2.5.0/
-               | build_info
-               | cache
-               | doc
-               | extensions
-               | gems
-               | └ json-2.1.0
-               └ specifications
-                 └ json-2.1.0.gemspec
-```
-
-------
 #### [ Java ]
 
 **Example file structure for the Jackson JAR file**  
@@ -103,46 +84,6 @@ jq.zip
 
 For more information about path settings in the Lambda execution environment, see [Defined runtime environment variables](configuration-envvars.md#configuration-envvars-runtime)\.
 
-## Language\-specific instructions<a name="configuration-layers-zip-cli"></a>
-
- For language\-specific instructions on how to create a \.zip file archive, see the following topics\.
-
-------
-#### [ Node\.js ]
-
-[Deploy Node\.js Lambda functions with \.zip file archives](nodejs-package.md) 
-
-------
-#### [ Python ]
-
- [Deploy Python Lambda functions with \.zip file archives](python-package.md) 
-
-------
-#### [ Ruby ]
-
- [Deploy Ruby Lambda functions with \.zip file archives](ruby-package.md) 
-
-------
-#### [ Java ]
-
- [Deploy Java Lambda functions with \.zip or JAR file archives](java-package.md) 
-
-------
-#### [ Go ]
-
- [Deploy Go Lambda functions with \.zip file archives](golang-package.md) 
-
-------
-#### [ C\# ]
-
- [Deploy C\# Lambda functions with \.zip file archives](csharp-package.md) 
-
-------
-#### [ PowerShell ]
-
- [Deploy PowerShell Lambda functions with \.zip file archives](powershell-package.md) 
-
-------
 
 ## Creating a layer<a name="configuration-layers-create"></a>
 
