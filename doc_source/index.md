@@ -33,7 +33,7 @@ Amazon's trademarks and trade dress may not be used in
    + [Using permissions boundaries for AWS Lambda applications](permissions-boundary.md)
 + Configuring AWS Lambda functions
    + **OK** [Creating Lambda functions defined as .zip file archives](configuration-function-zip.md)
-   + [Creating and sharing Lambda layers](configuration-layers.md)
+   + **OK** [Creating and sharing Lambda layers](configuration-layers.md)
    + [Creating Lambda functions defined as container images](configuration-images.md)
    + [Configuring Lambda function options](configuration-function-common.md)
    + [Using AWS Lambda environment variables](configuration-envvars.md)
