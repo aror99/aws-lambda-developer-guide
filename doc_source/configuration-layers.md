@@ -89,29 +89,9 @@ For more information about path settings in the Lambda execution environment, se
 
 You can create new layers using the Lambda console or the Lambda API\.
 
-Layers can have one or more version\. When you create a layer, Lambda sets the layer version to version 1\. You can configure permissions on an existing layer version, but to update the code or make other configuration changes, you must create a new version of the layer\.
-
 **To create a layer \(console\)**
 
-1. Open the [Layers page](https://console.aws.amazon.com/lambda/home#/layers) of the Lambda console\.
-
-1. Choose **Create layer**\.
-
-1. Under **Layer configuration**, for **Name**, enter a name for your layer\.
-
-1. \(Optional\) For **Description**, enter a description for your layer\.
-
-1. To upload your layer code, do one of the following:
-   + To upload a \.zip file from your computer, choose **Upload a \.zip file**\. Then, choose **Upload** to select your local \.zip file\.
-   + To upload a file from Amazon S3, choose **Upload a file from Amazon S3**\. Then, for **Amazon S3 link URL**, enter a link to the file\.
-
-1. \(Optional\) For **Compatible instruction set architectures**, choose one value or both values\.
-
-1. \(Optional\) For **Compatible runtimes**, choose up to 15 runtimes\.
-
-1. \(Optional\) For **License**, enter any necessary license information\.
-
-1. Choose **Create**\.
+1. Open the [Layers page](https://console.aws.amazon.com/lambda/home#/layers) of the Lambda console\. y ahi te dejas llevar.
 
 **To create a layer \(API\)**
 
